@@ -1,9 +1,6 @@
-Verb = []
-Noun = []
-Number = []
-Celebrity quest = []
+"#1 challenge"
+""" sentence = input("input a sentence")
+count = sentence.split(' ')
+print(len(count)) """
 
-
-x = [1,2,3,4,5,6]
-print(f"number={x[1]}")
-
+"python mad libs"
