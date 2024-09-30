@@ -6,9 +6,17 @@ print(len(count)) """
 "python mad libs"
 import random
 
-verb = ["ran", "jumped", "walked"]
+verb = ["walk", "jump", "jog", "swim", "skate"]
+celebrity = ["Sabrina Carpenter", "Madison Beer", "Jennie Kim", "Alaina Castillo", "Eric Chou"]
+noun = ["cat", "chihuahua", "elephant", "cupcake", "mountain"]
+number = [2, 3, 5, 7, 9, 11, 13, 15, 17, 20]
 random_verb = random.choice(verb)
-print(random_verb)
+random_celebrity = random.choice(celebrity)
+random_noun = random.choice(noun)
+random_number = random.choice(number)
+
+madlib = f"{random_celebrity} {random_verb} {random_verb} {random_noun} {random_number}"
+print(madlib)
 
 "#2 challenge"
 """ number = int(input("input a number"))
