@@ -44,7 +44,7 @@ print(total) """
 
 
 "#4 challenge"
-""" number = int(input("Enter a number to find it's factors"))
+""" number = int(input("Enter a number"))
 factor = []
 
 for i in range(1, number + 1):
