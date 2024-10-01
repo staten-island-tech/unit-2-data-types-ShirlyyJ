@@ -4,14 +4,14 @@ count = sentence.split(' ')
 print(len(count)) """
 
 "python mad libs"
-""" verb1 = input("Enter a verb")
+verb1 = input("Enter a verb")
 verb2 = input("Enter another verb")
 noun = input("Enter a noun")
 number = input("Enter a number")
 celebrity = input("Enter a celebrity name")
 
 madlib = f"One day {celebrity} {verb1} to the park. That was went {celebrity} came across a {noun} in the middle of the path. They called {number} of their friends to help {verb2} over the {noun} to get pass. "
-print(madlib) """
+print(madlib)
 
 "#2 challenge"
 """ number = int(input("input a number"))
@@ -50,10 +50,10 @@ for i in range(1, number + 1):
 print(f"The factors of {number} are {factor}") """
 
 "#5 challenge"
-a = int(input("Enter a integer"))
+""" a = int(input("Enter a integer"))
 b = int(input("Enter another integer"))
 gcf = 1
 for i in range(1, a+1):
             if a % i == 0 and b % i == 0: 
                     gcf = i
-print(f"The greatest common factor of {a} and {b} is {gcf}")
+print(f"The greatest common factor of {a} and {b} is {gcf}") """
